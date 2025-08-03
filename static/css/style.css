@@ -76,8 +76,13 @@
 }
 
 * {
+  scroll-behavior: smooth;
   border-color: var(--border);
   outline: 1px solid color-mix(in srgb, transparent 50%, transparent);
+}
+
+.scroll-mt-17 {
+  scroll-margin-top: 68px;
 }
 
 body {
