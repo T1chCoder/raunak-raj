@@ -8,7 +8,6 @@ $(document).ready(function () {
 
         if (activeMenu) {
             $("header").addClass("shadow-lg shadow-purple-500/10");
-
             closeMenu(icon);
         } else {
             $("header").removeClass("shadow-lg shadow-purple-500/10");
@@ -63,6 +62,14 @@ $(document).ready(function () {
     $(document).on("click", "#menu a", function () {
         const icon = $("#menu-button").find("div[style]");
         closeMenu(icon);
+    });
+
+    // 🔽 Закрытие меню при прокрутке
+    $(window).on("scroll", function () {
+        if (activeMenu) {
+            const icon = $("#menu-button").find("div[style]");
+            closeMenu(icon);
+        }
     });
 
     function closeMenu(icon) {
