@@ -102,7 +102,7 @@ $(document).ready(function () {
             filteredCards.forEach(card => {
                 let cardClass = card.isLogo
                     ? "min-w-[258px] lg:max-w-[315px] max-w-[559px] aspect-[1/1]"
-                    : "min-w-[458px] max-w-[561px] aspect-[16/9]";
+                    : "max-[490px]:min-w-[258px] min-[490px]:min-w-[458px] max-w-[561px] aspect-[16/9]";
 
                 const label = card.isThumbnail ? "YT Thumbnail" : card.isLogo ? "Logo" : "Featured";
                 const cardHtml = getCardHtml(card.imageUrl, label, cardClass);
