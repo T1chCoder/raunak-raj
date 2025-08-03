@@ -27,9 +27,9 @@
   <script>
     document.documentElement.classList.add("dark");
   </script>
-  <script src="/static/js/main.js"></script>
-  <script src="/static/js/artworks.js"></script>
-  <script src="/static/js/testimonals.js"></script>
+  <script src="/raunak-raj/static/js/main.js"></script>
+  <script src="/raunak-raj/static/js/artworks.js"></script>
+  <script src="/raunak-raj/static/js/testimonals.js"></script>
 </head>
 
 <body>
@@ -65,7 +65,6 @@
           } else {
             const script = document.createElement("script");
             script.src = e.data.initScriptURL;
-            // https://sentry.io/answers/script-error/
             script.crossOrigin = "anonymous";
             document.body.appendChild(script);
           }
@@ -221,7 +220,7 @@
             class="fixed top-0 left-0 right-0 z-50 transition-all duration-500 bg-background/70 backdrop-blur-xl border-b border-purple-500/20 shadow-lg shadow-purple-500/10"
             style="transform: none">
             <div class="container mx-auto px-6 py-4 flex items-center justify-between">
-              <a href="/" class="relative group">
+              <a href="#home" class="relative group">
                 <div
                   class="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-600 blur-lg opacity-0 group-hover:opacity-30 transition-opacity duration-300">
                 </div>

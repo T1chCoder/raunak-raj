@@ -13,7 +13,7 @@ $(document).ready(function () {
             rating: 5,
             text: "I'm proud to have built trust with over 50+ happy clients 💼✨ across various projects in graphic design, branding, and digital creativity 🎨🚀. My dedication to quality work ✅, timely delivery ⏱️, and clear communication 💬 has helped me build strong relationships with clients like Lakshay Kaushik, Rahul Singh, and Rajit Saxsena — and many more are joining every week! 🌟",
             user: {
-                imageUrl: "/static/image/pfp-1.jpg",
+                imageUrl: "/raunak-raj/static/image/pfp-1.jpg",
                 name: "Lakshay",
                 surname: "Kaushik",
             }
@@ -22,7 +22,7 @@ $(document).ready(function () {
             rating: 5,
             text: "I’ve delivered 50+ creative projects for startups, entrepreneurs, and artists 🚀🎨 — from custom logos to full brand identities. Clients like Mira Kapoor, Josh Thomas, and Ankit Verma trust my work for its quality, speed, and attention to detail ✅🕒. Each project is a chance to grow and inspire — new ideas always welcome! 🌟",
             user: {
-                imageUrl: "/static/image/pfp-2.jpg",
+                imageUrl: "/raunak-raj/static/image/pfp-2.jpg",
                 name: "Rahul",
                 surname: "Singh"
             }
@@ -31,7 +31,7 @@ $(document).ready(function () {
             rating: 5,
             text: "Clients return not just for design — but for the creative spark I bring 🔥🎯. I’ve crafted posters, banners, and brand visuals for all kinds of businesses 🏢🖼️. Trusted by Alina Roy, Tushar Jain, and Kavya Narang, most projects come through referrals 📣✨. If you’ve got an idea, I’d love to bring it to life 💡🎨.",
             user: {
-                imageUrl: "/static/image/pfp-3.jpg",
+                imageUrl: "/raunak-raj/static/image/pfp-3.jpg",
                 name: "Rajit",
                 surname: "Saxsena"
             }

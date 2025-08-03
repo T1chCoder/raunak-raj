@@ -9,49 +9,49 @@ $(document).ready(function () {
 
     const cards = {
         1: {
-            imageUrl: "/static/image/job-1.jpg",
+            imageUrl: "/raunak-raj/static/image/job-1.jpg",
             isThumbnail: true,
             isFeatured: true
         },
         2: {
-            imageUrl: "/static/image/job-2.jpeg",
+            imageUrl: "/raunak-raj/static/image/job-2.jpeg",
             isLogo: true,
             isFeatured: true
         },
         3: {
-            imageUrl: "/static/image/job-3.jpg",
+            imageUrl: "/raunak-raj/static/image/job-3.jpg",
             isThumbnail: true,
             isFeatured: true
         },
         4: {
-            imageUrl: "/static/image/job-4.jpeg",
+            imageUrl: "/raunak-raj/static/image/job-4.jpeg",
             isLogo: true,
             isFeatured: true
         },
         5: {
-            imageUrl: "/static/image/job-5.png",
+            imageUrl: "/raunak-raj/static/image/job-5.png",
             isThumbnail: true,
             isFeatured: true
         },
         6: {
-            imageUrl: "/static/image/job-6.jpeg",
+            imageUrl: "/raunak-raj/static/image/job-6.jpeg",
             isLogo: true,
             isFeatured: true
         },
         7: {
-            imageUrl: "/static/image/job-7.jpg",
+            imageUrl: "/raunak-raj/static/image/job-7.jpg",
             isThumbnail: true
         },
         8: {
-            imageUrl: "/static/image/job-8.jpg",
+            imageUrl: "/raunak-raj/static/image/job-8.jpg",
             isThumbnail: true
         },
         9: {
-            imageUrl: "/static/image/job-9.jpg",
+            imageUrl: "/raunak-raj/static/image/job-9.jpg",
             isThumbnail: true
         },
         10: {
-            imageUrl: "/static/image/job-10.jpg",
+            imageUrl: "/raunak-raj/static/image/job-10.jpg",
             isThumbnail: true
         }
     };
