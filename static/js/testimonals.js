@@ -57,13 +57,13 @@ $(document).ready(function () {
 
         
         return `
-            <div class="absolute inset-0" style="
+            <div class="flex justify-center items-center" style="
                 transform-style: preserve-3d;
                 opacity: 1;
                 transform: none;
                 ">
                 <div data-slot="card"
-                    class="border-[var(--border)] text-card-foreground gap-3 rounded-xl border h-full bg-card/50 backdrop-blur-sm border-border/50 p-8 flex flex-col justify-center items-center text-center relative overflow-hidden group hover:border-purple-500/50">
+                    class="border-[var(--border)] text-card-foreground gap-3 rounded-xl border bg-card/50 backdrop-blur-sm border-border/50 p-8 flex flex-col justify-center items-center text-center relative overflow-hidden group hover:border-purple-500/50">
                   <div
                     class="absolute inset-0 w-full h-full bg-gradient-to-br opacity-0 group-hover:opacity-100 transition-opacity duration-500 from-purple-500/5 to-blue-500/5">
                   </div>
